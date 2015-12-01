@@ -1,0 +1,51 @@
+<div id="topo">
+    <div id="logo">
+        <img src=@{StaticR logo_png}>
+    <div id="box">
+        <div id="menu">
+            <div class="inMenu"><a href=@{HomeR}>Home
+            <div class="inMenu"><a href=@{ListaR}>Lista Geral
+            <div class="inMenu"><a href=@{LoginR}>Login
+            <div class="inMenu"><a href=@{CadastrarR}>Cadastro
+            <div class="inMenu"><a href=@{PerfilR}>Meu Perfil
+<div id="corpo">
+     <center>
+        <div class="labelB">Nome:
+        <input type="text" class="caixaTexto" />
+        <div class="labelB">Você é um menino ou uma menina?
+        <div class="labelB"><input type="radio" name="genero" value="M" checked="checked" />Menino
+        <div class="labelB"><input type="radio" name="genero" value="F" />Menina
+        <div class="labelB">Selecione um avatar:
+        <div class="imgs">
+            <label>
+              <input type="radio" name="tr" value="1" checked="checked" />
+              <img src=@{StaticR t1_png}>
+            <label>
+              <input type="radio" name="tr" value="2" />
+              <img src=@{StaticR t2_png}>
+            <label>
+              <input type="radio" name="tr" value="3" />
+              <img src=@{StaticR t3_png}>
+            <label>
+              <input type="radio" name="tr" value="4" />
+              <img src=@{StaticR t4_png}>
+            <br />
+            <label>
+              <input type="radio" name="tr" value="5" />
+              <img src=@{StaticR t5_png}>
+            <label>
+              <input type="radio" name="tr" value="6" />
+              <img src=@{StaticR t6_png}>
+            <label>
+              <input type="radio" name="tr" value="7" />
+              <img src=@{StaticR t7_png}>
+            <label>
+              <input type="radio" name="tr" value="8" />
+              <img src=@{StaticR t8_png}>
+
+        <div class="labelB">Login:
+        <input type="text" class="caixaTexto" />
+        <div class="labelB">Senha:
+        <input type="text" class="caixaTexto" />
+        <div class="btn1">
+              <img src=@{StaticR btn1_png}>

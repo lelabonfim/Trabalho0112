@@ -1,0 +1,36 @@
+*{margin:0 auto;padding:0; font-family:"Century Gothic", Calibri, "Calibri Light";}
+a { color: inherit; text-decoration:none; }
+.clr{clear:both;width:100%;height:1px;};
+body{min-width:600px;background:url(bg.jpg) repeat;}
+#topo{height:210px;background-color:#FFF;width:100%;margin-bottom:20px;}
+#logo{height:150px;width:407px;margin:0 auto;padding:10px 0 10px 0;}
+#box{height:40px;width:100%;background-color:#084a83;}
+#menu{width:550px; height:40px;margin:0 auto;}
+.inMenu{width:100px;text-align:center;vertical-align:middle;margin:0 auto;float:left; padding:10px 5px 10px 5px;color:#FFF;font-size:14px;cursor:pointer;}
+.inMenu:hover{color:#ffcb05;}
+.caixaTexto { width:278px; padding:10px; font-size:14px; border-width:1px; border-style:solid; border-radius:6px; color:#084a83; border-color:#ffcd05;text-shadow:0px 0px 0px rgba(42,42,42,.75); box-shadow: 0px 0px 0px 0px rgba(255,205,5,.75);} 
+.caixaTexto:focus { outline:none; }
+#corpo{width:800px;height:auto;margin:0 auto;min-height:100px;}
+.labelB{width:300px; height:20px; color:#084a83;padding-top:10px;text-align:left;}
+.btn1{width:155px; height:55px;/*background:url(StaticR btn1_png) no-repeat;*/margin-top:10px;padding-bottom:15px; cursor:pointer;}
+.btn1:hover{/*background:url(StaticR btn1h_png) no-repeat;*/}
+/* radio com img */
+label > input{visibility: hidden;position: absolute;}
+label > input + img{cursor:pointer;border:2px solid transparent;}
+label > input:checked + img{border:2px solid #ffcb05;}
+.poke{width:88px; padding:5px 5px 5px 5px; text-align:center;float:left;border:#ffcd05 dotted 1px;}
+.labelP{width:88px;color:#084a83;font-size:14px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;}
+.labelT{width:88px;color:#666;font-size:11px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;}
+.labelN{width:88px;color:#084a83;font-size:12px;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap: break-word;}
+.labelG{color:#666;font-size:14px;}
+.fEsq{float:left;}
+.fDir{float:right;}
+.infos{width:300px;height:85px;border-bottom:1px solid #ffcb05;}
+.equipes{width:300px;}
+.eqp{border-top:1px dotted #666666;margin:10px 0 10px 0;}
+.opcEqp{width:300px; font-size:12px;  color:#084a83; text-align:right; padding-bottom:5px; cursor:pointer;}
+.opcEqp:hover{color:#ffcb05;text-decoration:underline; }
+.imgPoke{border:1px solid #ffcb05; margin-left:5px;}
+.caixaTexto2 { width:195px; padding:10px; font-size:14px; border-width:1px; border-style:solid; border-radius:6px; color:#084a83; border-color:#ffcd05;text-shadow:0px 0px 0px rgba(42,42,42,.75); box-shadow: 0px 0px 0px 0px rgba(255,205,5,.75); float:left; margin-top:32px;} 
+.caixaTexto2:focus { outline:none; }
+.eqpItem{padding-top:10px; margin-top:10px;border-top:1px dotted #666666}

@@ -1,0 +1,19 @@
+<div id="topo">
+    <div id="logo">
+        <img src=@{StaticR logo_png}>
+    <div id="box">
+        <div id="menu">
+            <div class="inMenu"><a href=@{HomeR}>Home
+            <div class="inMenu"><a href=@{ListaR}>Lista Geral
+            <div class="inMenu"><a href=@{LoginR}>Login
+            <div class="inMenu"><a href=@{CadastrarR}>Cadastro
+            <div class="inMenu"><a href=@{PerfilR}>Meu Perfil
+
+<div id="corpo">
+     <center>
+        <div class="labelB">Login:
+        <input type="text" class="caixaTexto" />
+        <div class="labelB">Senha:
+        <input type="text" class="caixaTexto" />
+        <div class="btn1">
+              <img src=@{StaticR btn1_png}>

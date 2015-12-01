@@ -1,0 +1,38 @@
+<div id="topo">
+    <div id="logo">
+        <img src=@{StaticR logo_png}>
+    <div id="box">
+        <div id="menu">
+            <div class="inMenu"><a href=@{HomeR}>Home
+            <div class="inMenu"><a href=@{ListaR}>Lista Geral
+            <div class="inMenu"><a href=@{LoginR}>Login
+            <div class="inMenu"><a href=@{CadastrarR}>Cadastro
+            <div class="inMenu"><a href=@{PerfilR}>Meu Perfil
+
+<div id="corpo">
+    <center>
+        <div class="infos">
+            <div class="fEsq">
+              <img src=@{StaticR t1_png}>
+
+            <div class="labelB">Nome: <span class="labelG">Lela
+            <div class="labelB labelG">Você é uma menina.
+            <a href=@{NovaEquipeR}><div class="opcEqp" >Nova Equipe
+            <div class="clr">
+
+        <div class="equipes">
+            <div class="labelB">Equipes:
+
+             <div class="eqp">
+                <div class="labelB labelG">Equipe Blast
+                <img src=@{StaticR p1_gif}>
+                <img src=@{StaticR p2_gif}>
+                <img src=@{StaticR p3_gif}>
+                <img src=@{StaticR p0_gif}>
+                <img src=@{StaticR p0_gif}>
+                <img src=@{StaticR p0_gif}>
+                <a href=@{EditarR}><div class="opcEqp">Editar
+                <div class="clr">
+
+            <div class="clr">
+

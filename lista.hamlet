@@ -1,0 +1,20 @@
+<div id="topo">
+    <div id="logo">
+        <img src=@{StaticR logo_png}>
+    <div id="box">
+        <div id="menu">
+            <div class="inMenu"><a href=@{HomeR}>Home
+            <div class="inMenu"><a href=@{ListaR}>Lista Geral
+            <div class="inMenu"><a href=@{LoginR}>Login
+            <div class="inMenu"><a href=@{CadastrarR}>Cadastro
+            <div class="inMenu"><a href=@{PerfilR}>Meu Perfil
+
+<div id="corpo">
+    <center>
+                      <div class="poke">
+                              <div class="labelN"> Id
+                              <img src=@{StaticR p1_png}>
+                              <div class="labelP"> Nome
+                              <div class="labelT"> Tipo1 Tipo2
+
+        <div class="clr">

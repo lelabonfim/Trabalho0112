@@ -1,0 +1,1378 @@
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "The Haskell 98 Foreign Function
+Interface, An Addendum to the Haskell 98 Report" is distributed under
+the following license:
+
+  Copyright (c) 2002 Manuel M. T. Chakravarty
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Foreign Function Interface.
+
+-----------------------------------------------------------------------------
+
+Copyright 1991, 1996, 1999, 2000 Free Software Foundation, Inc.
+
+This file is part of the GNU MP Library.
+
+The GNU MP Library is free software; you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation; either version 2.1 of the License, or (at your
+option) any later version.
+
+The GNU MP Library is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+License for more details.
+
+-----------------------------------------------------------------------------
+
+License for aeson:
+
+Package aeson has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/aeson nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/aeson/aeson.haddock.
+
+License for ansi-terminal:
+
+Package ansi-terminal has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/ansi-terminal nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/ansi-terminal/ansi-terminal.haddock.
+
+License for array:
+
+This library (libraries/base) is derived from code from several
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+  * Code from the Haskell Foreign Function Interface specification,
+    which is (c) Manuel M. T. Chakravarty and freely redistributable
+    (but see the full license for restrictions).
+
+The full text of these licenses is reproduced below.  All of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "The Haskell 98 Foreign Function
+Interface, An Addendum to the Haskell 98 Report" is distributed under
+the following license:
+
+  Copyright (c) 2002 Manuel M. T. Chakravarty
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Foreign Function Interface.
+
+-----------------------------------------------------------------------------
+
+License for attoparsec:
+
+Package attoparsec has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/attoparsec nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/attoparsec/attoparsec.haddock.
+
+License for auto-update:
+
+Package auto-update has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/auto-update nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/auto-update/auto-update.haddock.
+
+License for base:
+
+This library (libraries/base) is derived from code from several
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+  * Code from the Haskell Foreign Function Interface specification,
+    which is (c) Manuel M. T. Chakravarty and freely redistributable
+    (but see the full license for restrictions).
+
+The full text of these licenses is reproduced below.  All of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "The Haskell 98 Foreign Function
+Interface, An Addendum to the Haskell 98 Report" is distributed under
+the following license:
+
+  Copyright (c) 2002 Manuel M. T. Chakravarty
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Foreign Function Interface.
+
+-----------------------------------------------------------------------------
+
+License for base-unicode-symbols:
+
+Package base-unicode-symbols has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/base-unicode-symbols nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/base-unicode-symbols/base-unicode-symbols.haddock.
+
+License for base64-bytestring:
+
+Package base64-bytestring has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/base64-bytestring nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/base64-bytestring/base64-bytestring.haddock.
+
+License for binary:
+
+Copyright (c) Lennart Kolmodin
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the author nor the names of his contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS ``AS IS'' AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+License for blaze-builder:
+
+Package blaze-builder has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-builder nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-builder/blaze-builder.haddock.
+
+License for blaze-html:
+
+Package blaze-html has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-html nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-html/blaze-html.haddock.
+
+License for blaze-markup:
+
+Package blaze-markup has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-markup nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-markup/blaze-markup.haddock.
+
+License for blaze-textual:
+
+Package blaze-textual has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-textual nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/blaze-textual/blaze-textual.haddock.
+
+License for byteable:
+
+Package byteable has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/byteable nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/byteable/byteable.haddock.
+
+License for byteorder:
+
+Package byteorder has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/byteorder nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/byteorder/byteorder.haddock.
+
+License for bytestring:
+
+Copyright (c) Don Stewart 2005-2009
+          (c) Duncan Coutts 2006-2011
+          (c) David Roundy 2003-2005
+          (c) Simon Meier 2010-2011
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. Neither the name of the author nor the names of his contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+
+License for case-insensitive:
+
+Package case-insensitive has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/case-insensitive nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/case-insensitive/case-insensitive.haddock.
+
+License for cereal:
+
+Package cereal has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cereal nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cereal/cereal.haddock.
+
+License for cipher-aes:
+
+Package cipher-aes has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cipher-aes nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cipher-aes/cipher-aes.haddock.
+
+License for clientsession:
+
+Package clientsession has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/clientsession nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/clientsession/clientsession.haddock.
+
+License for conduit:
+
+Package conduit has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/conduit nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/conduit/conduit.haddock.
+
+License for conduit-extra:
+
+Package conduit-extra has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/conduit-extra nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/conduit-extra/conduit-extra.haddock.
+
+License for containers:
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+License for cookie:
+
+Package cookie has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cookie nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cookie/cookie.haddock.
+
+License for cprng-aes:
+
+Package cprng-aes has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cprng-aes nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cprng-aes/cprng-aes.haddock.
+
+License for crypto-api:
+
+Package crypto-api has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/crypto-api nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/crypto-api/crypto-api.haddock.
+
+License for crypto-cipher-types:
+
+Package crypto-cipher-types has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/crypto-cipher-types nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/crypto-cipher-types/crypto-cipher-types.haddock.
+
+License for crypto-random:
+
+Package crypto-random has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/crypto-random nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/crypto-random/crypto-random.haddock.
+
+License for cryptohash:
+
+Package cryptohash has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cryptohash nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cryptohash/cryptohash.haddock.
+
+License for cryptohash-conduit:
+
+Package cryptohash-conduit has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cryptohash-conduit nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/cryptohash-conduit/cryptohash-conduit.haddock.
+
+License for css-text:
+
+Package css-text has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/css-text nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/css-text/css-text.haddock.
+
+License for data-default:
+
+Package data-default has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default/data-default.haddock.
+
+License for data-default-class:
+
+Package data-default-class has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-class nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-class/data-default-class.haddock.
+
+License for data-default-instances-base:
+
+Package data-default-instances-base has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-base nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-base/data-default-instances-base.haddock.
+
+License for data-default-instances-containers:
+
+Package data-default-instances-containers has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-containers nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-containers/data-default-instances-containers.haddock.
+
+License for data-default-instances-dlist:
+
+Package data-default-instances-dlist has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-dlist nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-dlist/data-default-instances-dlist.haddock.
+
+License for data-default-instances-old-locale:
+
+Package data-default-instances-old-locale has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-old-locale nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/data-default-instances-old-locale/data-default-instances-old-locale.haddock.
+
+License for deepseq:
+
+This library (deepseq) is derived from code from the GHC project which
+is largely (c) The University of Glasgow, and distributable under a
+BSD-style license (see below).
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2001-2009, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+License for directory:
+
+This library (libraries/base) is derived from code from two
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+The full text of these licenses is reproduced below.  Both of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+License for dlist:
+
+Package dlist has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/dlist nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/dlist/dlist.haddock.
+
+License for easy-file:
+
+Package easy-file has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/easy-file nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/easy-file/easy-file.haddock.
+
+License for email-validate:
+
+Package email-validate has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/email-validate nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/email-validate/email-validate.haddock.
+
+License for entropy:
+
+Package entropy has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/entropy nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/entropy/entropy.haddock.
+
+License for exceptions:
+
+Package exceptions has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/exceptions nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/exceptions/exceptions.haddock.
+
+License for fast-logger:
+
+Package fast-logger has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/fast-logger nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/fast-logger/fast-logger.haddock.
+
+License for file-embed:
+
+Package file-embed has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/file-embed nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/file-embed/file-embed.haddock.
+
+License for filepath:
+
+Copyright Neil Mitchell 2005-2007.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+
+    * Neither the name of Neil Mitchell nor the names of other
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License for ghc-prim:
+
+This library (libraries/ghc-prim) is derived from code from several
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+The full text of these licenses is reproduced below.  All of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+
+License for hashable:
+
+Package hashable has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/hashable nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/hashable/hashable.haddock.
+
+License for http-date:
+
+Package http-date has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/http-date nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/http-date/http-date.haddock.
+
+License for http-types:
+
+Package http-types has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/http-types nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/http-types/http-types.haddock.
+
+License for integer-gmp:
+
+This library (libraries/integer(-gmp)) is derived from code from several
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+The full text of these licenses is reproduced below.  All of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+
+License for lifted-base:
+
+Package lifted-base has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/lifted-base nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/lifted-base/lifted-base.haddock.
+
+License for mime-types:
+
+Package mime-types has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/mime-types nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/mime-types/mime-types.haddock.
+
+License for mmorph:
+
+Package mmorph has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/mmorph nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/mmorph/mmorph.haddock.
+
+License for monad-control:
+
+Package monad-control has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/monad-control nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/monad-control/monad-control.haddock.
+
+License for monad-logger:
+
+Package monad-logger has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/monad-logger nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/monad-logger/monad-logger.haddock.
+
+License for monad-loops:
+
+No license text can be found for package monad-loops.
+
+License for mtl:
+
+Package mtl has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/mtl nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/mtl/mtl.haddock.
+
+License for nats:
+
+Package nats has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/nats nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/nats/nats.haddock.
+
+License for network:
+
+Package network has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/network nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/network/network.haddock.
+
+License for old-locale:
+
+This library (libraries/base) is derived from code from two
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+The full text of these licenses is reproduced below.  Both of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+License for old-time:
+
+This library (libraries/base) is derived from code from two
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+The full text of these licenses is reproduced below.  Both of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+License for parsec:
+
+Package parsec has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/parsec nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/parsec/parsec.haddock.
+
+License for path-pieces:
+
+Package path-pieces has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/path-pieces nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/path-pieces/path-pieces.haddock.
+
+License for persistent:
+
+Package persistent has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/persistent nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/persistent/persistent.haddock.
+
+License for persistent-postgresql:
+
+Package persistent-postgresql has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/persistent-postgresql nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/persistent-postgresql/persistent-postgresql.haddock.
+
+License for persistent-template:
+
+Package persistent-template has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/persistent-template nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/persistent-template/persistent-template.haddock.
+
+License for postgresql-libpq:
+
+Package postgresql-libpq has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/postgresql-libpq nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/postgresql-libpq/postgresql-libpq.haddock.
+
+License for postgresql-simple:
+
+Package postgresql-simple has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/postgresql-simple nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/postgresql-simple/postgresql-simple.haddock.
+
+License for pretty:
+
+This library (libraries/pretty) is derived from code from
+the GHC project which is largely (c) The University of
+Glasgow, and distributable under a BSD-style license (see below).
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+License for primitive:
+
+Package primitive has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/primitive nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/primitive/primitive.haddock.
+
+License for process:
+
+This library (libraries/process) is derived from code from two
+sources: 
+
+  * Code from the GHC project which is largely (c) The University of
+    Glasgow, and distributable under a BSD-style license (see below),
+
+  * Code from the Haskell 98 Report which is (c) Simon Peyton Jones
+    and freely redistributable (but see the full license for
+    restrictions).
+
+The full text of these licenses is reproduced below.  Both of the
+licenses are BSD-style or compatible.
+
+-----------------------------------------------------------------------------
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+-----------------------------------------------------------------------------
+
+Code derived from the document "Report on the Programming Language
+Haskell 98", is distributed under the following license:
+
+  Copyright (c) 2002 Simon Peyton Jones
+
+  The authors intend this Report to belong to the entire Haskell
+  community, and so we grant permission to copy and distribute it for
+  any purpose, provided that it is reproduced in its entirety,
+  including this Notice.  Modified versions of this Report may also be
+  copied and distributed for any purpose, provided that the modified
+  version is clearly presented as such, and that it does not claim to
+  be a definition of the Haskell 98 Language.
+
+-----------------------------------------------------------------------------
+
+License for random:
+
+Package random has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/random nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/random/random.haddock.
+
+License for resource-pool:
+
+Package resource-pool has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/resource-pool nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/resource-pool/resource-pool.haddock.
+No .cabal file provided for package resourcet so no license can be found.
+
+License for safe:
+
+Package safe has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/safe nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/safe/safe.haddock.
+No .cabal file provided for package scientific so no license can be found.
+
+License for securemem:
+
+Package securemem has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/securemem nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/securemem/securemem.haddock.
+
+License for semigroups:
+
+Package semigroups has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/semigroups nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/semigroups/semigroups.haddock.
+
+License for shakespeare:
+
+Package shakespeare has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/shakespeare nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/shakespeare/shakespeare.haddock.
+
+License for silently:
+
+Package silently has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/silently nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/silently/silently.haddock.
+
+License for simple-sendfile:
+
+Package simple-sendfile has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/simple-sendfile nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/simple-sendfile/simple-sendfile.haddock.
+
+License for skein:
+
+Package skein has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/skein nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/skein/skein.haddock.
+
+License for stm:
+
+Package stm has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/stm nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/stm/stm.haddock.
+
+License for stm-chans:
+
+Package stm-chans has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/stm-chans nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/stm-chans/stm-chans.haddock.
+
+License for streaming-commons:
+
+Package streaming-commons has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/streaming-commons nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/streaming-commons/streaming-commons.haddock.
+
+License for stringsearch:
+
+Package stringsearch has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/stringsearch nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/stringsearch/stringsearch.haddock.
+
+License for system-fileio:
+
+Package system-fileio has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/system-fileio nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/system-fileio/system-fileio.haddock.
+
+License for system-filepath:
+
+Package system-filepath has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/system-filepath nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/system-filepath/system-filepath.haddock.
+
+License for tagged:
+
+Package tagged has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/tagged nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/tagged/tagged.haddock.
+
+License for tagsoup:
+
+Package tagsoup has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/tagsoup nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/tagsoup/tagsoup.haddock.
+
+License for template-haskell:
+
+
+The Glasgow Haskell Compiler License
+
+Copyright 2002-2007, The University Court of the University of Glasgow.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+
+License for text:
+
+Package text has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/text nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/text/text.haddock.
+
+License for time:
+
+TimeLib is Copyright (c) Ashley Yakeley, 2004-2010.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+- Neither name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License for transformers:
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+License for transformers-base:
+
+Package transformers-base has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/transformers-base nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/transformers-base/transformers-base.haddock.
+
+License for unix:
+
+The Glasgow Haskell Compiler License
+
+Copyright 2004, The University Court of the University of Glasgow. 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+ 
+- Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+- Neither name of the University nor the names of its contributors may be
+used to endorse or promote products derived from this software without
+specific prior written permission. 
+
+THIS SOFTWARE IS PROVIDED BY THE UNIVERSITY COURT OF THE UNIVERSITY OF
+GLASGOW AND THE CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+UNIVERSITY COURT OF THE UNIVERSITY OF GLASGOW OR THE CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+License for unix-compat:
+
+Package unix-compat has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/unix-compat nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/unix-compat/unix-compat.haddock.
+
+License for unix-time:
+
+Package unix-time has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/unix-time nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/unix-time/unix-time.haddock.
+
+License for unordered-containers:
+
+Package unordered-containers has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/unordered-containers nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/unordered-containers/unordered-containers.haddock.
+
+License for utf8-string:
+
+Package utf8-string has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/utf8-string nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/utf8-string/utf8-string.haddock.
+
+License for uuid:
+
+Package uuid has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/uuid nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/uuid/uuid.haddock.
+
+License for vault:
+
+Package vault has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/vault nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/vault/vault.haddock.
+
+License for vector:
+
+Package vector has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/vector nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/vector/vector.haddock.
+
+License for void:
+
+Package void has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/void nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/void/void.haddock.
+
+License for wai:
+
+Package wai has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai/wai.haddock.
+
+License for wai-app-static:
+
+Package wai-app-static has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai-app-static nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai-app-static/wai-app-static.haddock.
+
+License for wai-extra:
+
+Package wai-extra has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai-extra nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai-extra/wai-extra.haddock.
+
+License for wai-logger:
+
+Package wai-logger has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai-logger nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/wai-logger/wai-logger.haddock.
+
+License for warp:
+
+Package warp has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/warp nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/warp/warp.haddock.
+
+License for xss-sanitize:
+
+Package xss-sanitize has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/xss-sanitize nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/xss-sanitize/xss-sanitize.haddock.
+
+License for yesod:
+
+Package yesod has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod/yesod.haddock.
+
+License for yesod-core:
+
+Package yesod-core has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-core nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-core/yesod-core.haddock.
+
+License for yesod-form:
+
+Package yesod-form has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-form nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-form/yesod-form.haddock.
+
+License for yesod-persistent:
+
+Package yesod-persistent has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-persistent nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-persistent/yesod-persistent.haddock.
+
+License for yesod-routes:
+
+Package yesod-routes has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-routes nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-routes/yesod-routes.haddock.
+
+License for yesod-static:
+
+Package yesod-static has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-static nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/yesod-static/yesod-static.haddock.
+
+License for zlib:
+
+Package zlib has no license file in path /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks nor /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/zlib nor /opt/fp/env. Haddock interfaces path (from, e.g., --haddockdir or --docdir) is /opt/fp/env/7.8.3.20140729/env-20140916-162/stackage-haddocks/zlib/zlib.haddock.

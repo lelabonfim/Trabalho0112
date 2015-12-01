@@ -1,0 +1,34 @@
+/function myFunction1() {
+var x = document.getElementById("pokemonSelect1").value;
+document.getElementById("imgPoke1").innerHTML = "<img src='pokemon/"+x+".png' class='imgPoke' />";
+}
+
+function myFunction2() {
+var x = document.getElementById("pokemonSelect2").value;
+document.getElementById("imgPoke2").innerHTML = "<img src='pokemon/"+x+".png' class='imgPoke' />";
+}
+
+function myFunction3() {
+var x = document.getElementById("pokemonSelect3").value;
+document.getElementById("imgPoke3").innerHTML = "<img src='pokemon/"+x+".png' class='imgPoke' />";
+}
+
+function myFunction4() {
+var x = document.getElementById("pokemonSelect4").value;
+document.getElementById("imgPoke4").innerHTML = "<img src='pokemon/"+x+".png' class='imgPoke' />";
+}
+
+function myFunction5() {
+var x = document.getElementById("pokemonSelect5").value;
+document.getElementById("imgPoke5").innerHTML = "<img src='pokemon/"+x+".png' class='imgPoke' />";
+}
+
+function myFunction6() {
+var x = document.getElementById("pokemonSelect6").value;
+document.getElementById("imgPoke6").innerHTML = "<img src='pokemon/"+x+".png' class='imgPoke' />";
+}
+
+function deletaMesmo() {
+if (confirm("Deseja mesmo deletar esta equipe?") == true) {
+alert("Equipe deletada.");}
+}

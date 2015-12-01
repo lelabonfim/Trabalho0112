@@ -1,0 +1,74 @@
+<div id="topo">
+    <div id="logo">
+        <img src=@{StaticR logo_png}>
+    <div id="box">
+        <div id="menu">
+            <div class="inMenu"><a href=@{HomeR}>Home
+            <div class="inMenu"><a href=@{ListaR}>Lista Geral
+            <div class="inMenu"><a href=@{LoginR}>Login
+            <div class="inMenu"><a href=@{CadastrarR}>Cadastro
+            <div class="inMenu"><a href=@{PerfilR}>Meu Perfil
+<div id="corpo">
+    <center>
+        <div class="equipes">
+            <div class="labelB">Equipe: <span class="labelG">Blast
+
+            <div class="eqpItem">
+                <select id="pokemonSelect1" onchange="myFunction1()" class="caixaTexto2">
+                  <option value="0">Selecione
+                  <option value="1">001 - Bulbasaur
+                  <option value="2">004 - Charmander
+                  <option value="3">007 - Squirtle
+                <div id="imgPoke1"><img src=@{StaticR p0_png} class='imgPoke' />
+                <div class="clr">
+
+            <div class="eqpItem">
+                <select id="pokemonSelect2" onchange="myFunction2()" class="caixaTexto2">
+                  <option value="0">Selecione
+                  <option value="1">001 - Bulbasaur
+                  <option value="2">004 - Charmander
+                  <option value="3">007 - Squirtle
+                <div id="imgPoke2"><img src=@{StaticR p0_png} class='imgPoke' />
+                <div class="clr">
+
+            <div class="eqpItem">
+                <select id="pokemonSelect3" onchange="myFunction3()" class="caixaTexto2">
+                  <option value="0">Selecione
+                  <option value="1">001 - Bulbasaur
+                  <option value="2">004 - Charmander
+                  <option value="3">007 - Squirtle
+                <div id="imgPoke3"><img src=@{StaticR p0_png} class='imgPoke' />
+                <div class="clr">
+
+            <div class="eqpItem">
+                <select id="pokemonSelect4" onchange="myFunction4()" class="caixaTexto2">
+                  <option value="0">Selecione
+                  <option value="1">001 - Bulbasaur
+                  <option value="2">004 - Charmander
+                  <option value="3">007 - Squirtle
+                <div id="imgPoke4"><img src=@{StaticR p0_png} class='imgPoke' />
+                <div class="clr">
+
+            <div class="eqpItem">
+                <select id="pokemonSelect5" onchange="myFunction5()" class="caixaTexto2">
+                  <option value="0">Selecione
+                  <option value="1">001 - Bulbasaur
+                  <option value="2">004 - Charmander
+                  <option value="3">007 - Squirtle
+                <div id="imgPoke5"><img src=@{StaticR p0_png} class='imgPoke' />
+                <div class="clr">
+
+            <div class="eqpItem">
+                <select id="pokemonSelect6" onchange="myFunction6()" class="caixaTexto2">
+                  <option value="0">Selecione
+                  <option value="1">001 - Bulbasaur
+                  <option value="2">004 - Charmander
+                  <option value="3">007 - Squirtle
+                <div id="imgPoke6"><img src=@{StaticR p0_png} class='imgPoke' />
+                <div class="clr">
+            <br />
+
+            <div class="opcEqp" onclick="deletaMesmo()">Deletar Equipe
+            <div class="clr">
+            <div class="btn1">
+                <img src=@{StaticR btn1_png}>
